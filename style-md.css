@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#bgvid {
+    object-fit:cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity:1;
+  }
+
+
+.head-det>img {
+    filter: drop-shadow(0 0 20px rgb(13, 60, 13));
+    
+}
+
+
+
+.formdet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    gap: 4px;
+    padding: 28px;
+    box-shadow: 0 4px 8px 0 rgb(11, 13, 11) ,inset green 0px 0px 20px -12px;
+    opacity: 1;
+}
+
+.formdet>legend {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-sec {
+    display: flex;
+    color: rgb(5, 4, 4);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    gap: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    cursor: pointer;
+    background: green;
+    padding: 4px;
+    border-radius: 4px;
+    color: whitesmoke;
+}

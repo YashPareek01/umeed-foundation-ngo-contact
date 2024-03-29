@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="umeed_logo_whole.png" sizes="16x16"
+            type="image/png">
+        <title>UMEED Foundation</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet"
+            media="screen and (max-width: 700px) "
+            href="style-sd.css">
+        <link rel="stylesheet" media="screen and (min-width: 701px) "
+            href="style-md.css">
+    </head>
+    <body>
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop id="bgvid">
+                <source src="video/3577871-hd_1280_720_25fps.mp4"
+                    type="video/mp4" >
+            </video>
+        </div>
+        <div class="section">
+            <div class="head-det">
+                <img
+                    src="https://www.umeedfoundation.co/images/umeed_logo_whole.png"
+                    alt>
+            </div>
+            <form action id="Details" onsubmit="window.submitForm(event)">
+                <fieldset class="formdet">
+                    <legend>Details</legend>
+                    <div class="div-sec">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="div-sec">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                    <div class="div-sec">
+                        <label for="num">Phone Number</label>
+                        <input type="text" name="num" id="num" pattern="[789][0-9]{9}" title="Please enter a valid India phone number" required>
+                    </div>
+                    <div class="div-sec">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

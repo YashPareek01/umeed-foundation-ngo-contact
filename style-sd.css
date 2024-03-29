@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .video-wrapper {
     position: relative;
     width: 100vw;
@@ -23,8 +24,8 @@
 
 .head-det>img {
     filter: drop-shadow(0 0 20px rgb(13, 60, 13));
-    width: 40%;
-    height:40%;
+    width: 69%;
+    height: 56%;
     left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -60,7 +61,7 @@
     bottom: 0;
     width: 100vw;
     height: 100vh;
-   
+
 }
 
 
@@ -71,7 +72,7 @@
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
     gap: 20px;
     font-weight: 500;
-    
+
 }
 
 .btn {
